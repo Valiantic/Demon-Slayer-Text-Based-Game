@@ -64,26 +64,26 @@ def Mission():
 def Mount_Yokogawa():
   clear_screen()
   print("\nWelcome to Mount Yokogawa!\n")
-  print("A demon outbreak ravaged a village on Mount Yokogawa, leaving its inhabitants forever \nmarked by the harrowing encounter. This event sparked a\n vow for vengeance in one determined survivor.")
+  print("A demon outbreak ravaged a village on Mount Yokogawa, leaving its inhabitants forever \nmarked by the harrowing encounter. This event sparked a\nvow for vengeance in one determined survivor.")
   wonder = input("\nPress anything to wonder >>>")
   battle(player, enemy)
   
 def Swordsmith_Village():
   clear_screen()
   print("\nWelcome to Swordsmith Village!\n")
-  print("Driven by this oath, the survivor ventured to the hidden Swordsmith Village. Their unwavering\n determination impressed a master smith who recognized their potential and\n crafted a unique weapon to aid them in their fight against demons.")
+  print("Driven by this oath, the survivor ventured to the hidden Swordsmith Village. Their unwavering\n determination impressed a master smith who recognized their potential and\ncrafted a unique weapon to aid them in their fight against demons.")
   wonder = input("\nPress anything to wonder >>>")
   battle(player, enemy)
 def Entertainment_District():
   clear_screen()
   print("\nWelcome to Entertainment District!\n")
-  print("Rumors of a powerful demon lurking within the dazzling yet deceitful Entertainment District drew the warrior in.\n This vibrant location with its hidden dangers became their next destination.")
+  print("Rumors of a powerful demon lurking within the dazzling yet deceitful Entertainment District drew the warrior in.\nThis vibrant location with its hidden dangers became their next destination.")
   wonder = input("\nPress anything to wonder >>>")
   battle(player, enemy)
 def Crimson_Light_District():
   clear_screen()
   print("\nWelcome to Crimson Light District!\n")
-  print("Undeterred by whispers of danger, the warrior ventures even deeper into the clandestine Crimson Light District.\n This even more secretive area is rumored to hold the\n key to their past or destiny, motivating them to confront the evil they seek.")
+  print("Undeterred by whispers of danger, the warrior ventures even deeper into the clandestine Crimson Light District.\nThis even more secretive area is rumored to hold the\n key to their past or destiny, motivating them to confront the evil they seek.")
   wonder = input("\nPress anything to wonder >>>")
   battle(player, enemy)
   
@@ -131,7 +131,7 @@ def battle(player, enemy):
 player_name = "Hiro Aoiumi"
 player_attacks = ["First Form: Water Surface Slash ", "Second Form: Water Wheel ", "Third Form: Flowing Dance  ", "Fourth Form: Striking Tide"]  # Replace with your desired attacks
 
-player = Character(player_name, 100, 10, player_attacks)
+player = Character(player_name, 100, 7, player_attacks)
 enemy = generate_enemy(1)  # Adjust level as needed
 
 # Start the battle
