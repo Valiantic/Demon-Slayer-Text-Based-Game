@@ -3,11 +3,9 @@ import random
 import os 
 
 def clear_screen():
-  # This function depends on your operating system
-  # For Windows
+  
   if os.name == 'nt':
     os.system('cls')
-  # For Linux/Mac
   else:
     os.system('clear')
 
@@ -74,26 +72,108 @@ def Aoi_Kenzaki():
 def Hiro_Aoiumi():
   clear_screen()
   print("You Choose Hiro Aoiumi\nThe Water Breathing Prodigy\n")
-  # ... (similar structure to Aoi_Kenzaki)
+  mission_place = ["Mount Yokogawa", "Swordsmith Village", "Entertainment District", "Crimson Light District"]
+  
+  random_mission = random.choice(mission_place)
+  
+  print(">You Mission is to go in: \n", random_mission,"!\n")
+  if random_mission == "Mount Yokogawa":
+    input("Press anything to Enter\n")
+    Mount_Yokogawa()
+  elif random_mission == "Swordsmith Village":
+    input("Press anything to Enter\n")
+    Swordsmith_Village()
+  elif random_mission == "Entertainment District":
+    input("Press anything to Enter\n")
+    Entertainment_District()
+  elif random_mission == "Crimson Light District":
+    input("Press anything to Enter\n")
+    Crimson_Light_District()
 
 def Kasumi_Arashi():
   clear_screen()
   print("You Choose Kasumi Arashi\nThe Wind Breathing Jackal\n")
-  # ... (similar structure to Aoi_Kenzaki)
+  mission_place = ["Mount Yokogawa", "Swordsmith Village", "Entertainment District", "Crimson Light District"]
+  
+  random_mission = random.choice(mission_place)
+  
+  print(">You Mission is to go in: \n", random_mission,"!\n")
+  if random_mission == "Mount Yokogawa":
+    input("Press anything to Enter\n")
+    Mount_Yokogawa()
+  elif random_mission == "Swordsmith Village":
+    input("Press anything to Enter\n")
+    Swordsmith_Village()
+  elif random_mission == "Entertainment District":
+    input("Press anything to Enter\n")
+    Entertainment_District()
+  elif random_mission == "Crimson Light District":
+    input("Press anything to Enter\n")
+    Crimson_Light_District()
+
 
 def Kaito_Kaminari():
+  mission_place = ["Mount Yokogawa", "Swordsmith Village", "Entertainment District", "Crimson Light District"]
+  
+  random_mission = random.choice(mission_place)
+  
+  print(">You Mission is to go in: \n", random_mission,"!\n")
+  if random_mission == "Mount Yokogawa":
+    input("Press anything to Enter\n")
+    Mount_Yokogawa()
+  elif random_mission == "Swordsmith Village":
+    input("Press anything to Enter\n")
+    Swordsmith_Village()
+  elif random_mission == "Entertainment District":
+    input("Press anything to Enter\n")
+    Entertainment_District()
+  elif random_mission == "Crimson Light District":
+    input("Press anything to Enter\n")
+    Crimson_Light_District()
   clear_screen()
   print("You Choose Kaito Kaminari\nThe Thunder Breathing Genius\n")
-  # ... (similar structure to Aoi_Kenzaki)
+ 
+  
+#BattleGrounds
 
 def Mount_Yokogawa():
-  print("Welcome to Mount Yokogawa!")
+  clear_screen()
+  print("\nWelcome to Mount Yokogawa!\n")
+  demons = ["Raging oni", "Illusionist imp", "Pestilent ghoul", "Spectral slayer"]
+  
+  random_demon = random.choice(demons)
+  
+  print("You've encountered",random_demon)
+  
+  
 def Swordsmith_Village():
-  print("Welcome to Swordsmith Village!")
+  clear_screen()
+  print("\nWelcome to Swordsmith Village!\n")
+  demons = ["Raging oni", "Illusionist imp", "Pestilent ghoul", "Spectral slayer"]
+  
+  random_demon = random.choice(demons)
+  
+  print("You've encountered",random_demon)
+  
 def Entertainment_District():
-  print("Welcome to Entertainment District!")
+  clear_screen()
+  print("\nWelcome to Entertainment District!\n")
+  print("\nWelcome to Swordsmith Village!\n")
+  demons = ["Raging oni", "Illusionist imp", "Pestilent ghoul", "Spectral slayer"]
+  
+  random_demon = random.choice(demons)
+  
+  print("You've encountered",random_demon)
+  
 def Crimson_Light_District():
-  print("Welcome to Crimson Light District!")
+  clear_screen()
+  print("\nWelcome to Crimson Light District!\n")
+  print("\nWelcome to Swordsmith Village!\n")
+  demons = ["Raging oni", "Illusionist imp", "Pestilent ghoul", "Spectral slayer"]
+  
+  random_demon = random.choice(demons)
+  
+  print("You've encountered",random_demon)
 
 if __name__ == '__main__':
   Start()
