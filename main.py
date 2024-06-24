@@ -65,14 +65,16 @@ def Hiro_Aoiumi():
 def Kasumi_Arashi():
   clear_screen()
   print("You Choose Kasumi Arashi\nThe Wind Breathing Jackal\n")
-  print(" vibrant young woman with eyes like a stormy sky, was a whirlwind of steel and laughter. Her twin katanas, Ame (Rain) and Yuki (Snow),\n were as unpredictable as the mountain storms she called home. Kasumi's breath technique wove illusions that dazzled and disoriented,\n leaving opponents bewildered as her blades found their mark. Renowned for her flamboyant fighting style and\n relentless optimism, Kasumi left a trail of vanquished demons and bewildered onlookers in her wake.")
+  print(" A vibrant young woman with eyes like a stormy sky, was a whirlwind of steel and laughter. Her twin katanas, Ame (Rain) and Yuki (Snow),\n were as unpredictable as the mountain storms she called home. Kasumi's breath technique wove illusions that dazzled and disoriented,\n leaving opponents bewildered as her blades found their mark. Renowned for her flamboyant fighting style and\n relentless optimism, Kasumi left a trail of vanquished demons and bewildered onlookers in her wake.")
   from Kasumi_character import Mission
   Mission()
 
 def Kaito_Kaminari():
   clear_screen()
   print("You Choose Kaito Kaminari\nThe Thunder Breathing Genius\n")
-  
+  print(" Kaito Kaminari, a prodigy with an unnervingly calm demeanor, possessed an intellect that rivaled the sharpest blade. \n Despite his youth, he\n had risen through the ranks of the Demon Slayers with meteoric speed. His\n wakizashi, Raijin (Thunder God) and Fuujin (Wind God),\n moved with a deadly precision, a testament to his rigorous training and strategic mind. Kaito's breath technique\n granted him heightened reflexes and perception, allowing him to anticipate his opponents' moves\n and dismantle them with surgical efficiency. Though his methods were unorthodox, his success was undeniable, \n making him a valuable asset to any mission.")
+  from Kaito_character import Mission
+  Mission()
   
 
 if __name__ == '__main__':
