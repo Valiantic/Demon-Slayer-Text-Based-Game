@@ -1,18 +1,6 @@
 
 import random
 import os 
-import speech_recognition as sr #voice recognition para makilala yung boses mo 
-import pyttsx3 #text to speech / nagcoconvert ng texto sa salita
-
-# SPEECH GENERATION
-def speak(text):
-    text = str(text)
-    engine = pyttsx3.init('sapi5')
-    voices = engine.getProperty('voices') 
-    engine.setProperty('voice', voices[0].id)
-    engine.setProperty('rate', 145)
-    engine.say(text)
-    engine.runAndWait()
 
 def clear_screen():
   
@@ -25,9 +13,7 @@ def Start():
   clear_screen()  # Clear screen before starting
   print("\n\n----------Kimetsu No Python: Code of the Demon Slayers----------")
   print("------------------Developed by Steven Madali--------------------\n\n\n\n")
-  speak("Welcome to Kimetsu no Python: Code of the Demon slayers, A Text based game developed by steven madali. press k to hunt demons")
   button = input(">>>>Press [K] to Hunt<<<<\n\n>>>>Press [X] to Exit<<<<\n")  # Get user input
-  
 
   if button == "k" or "K":
     Characterselect()
