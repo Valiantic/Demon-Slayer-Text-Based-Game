@@ -43,6 +43,7 @@ def Characterselect():
     print("[2] Hiro Aoiumi\n The Water Breathing Successor\n -Known 4 Water Breathing Forms\n")
     print("[3] Kasumi Arashi\n The Wind Breathing Jackal\n -Known 3 Wind Breathing Forms\n")
     print("[4] Kaito Kaminari\n The Thunder Breathing Genius\n -Known 2 Thunder Breathing Forms\n")
+    speak("Choose your demon slayer")
     selectcharacter = int(input())
   
     if selectcharacter == 1:
