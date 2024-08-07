@@ -67,6 +67,7 @@ def Aoi_Kenzaki():
   clear_screen()  # Clear screen before mission assignment
   print("You Choose Aoi Kanzaki\nThe Flame Breathing Prodigy\n")
   print(" Aoi Kanzaki, orphaned by a demon attack, seeks vengeance as a Demon Slayer Corps caretaker. Though a skilled fighter, \n self-doubt led her to support injured Slayers at the Butterfly Mansion. Her kindness and hidden strength\n make her a valuable asset.")
+  speak(" Aoi Kanzaki, orphaned by a demon attack, seeks vengeance as a Demon Slayer Corps caretaker. Though a skilled fighter, \n self-doubt led her to support injured Slayers at the Butterfly Mansion. Her kindness and hidden strength\n make her a valuable asset. ")
   from Aoi_character import Mission
   Mission()
  
@@ -74,6 +75,7 @@ def Hiro_Aoiumi():
   clear_screen()
   print("You Choose Hiro Aoiumi\nThe Water Breathing Prodigy\n")
   print(" Hiro Aoiumi, a solitary figure cloaked in an indigo haori, bore the weight of a heavy past. Orphaned\n by a demon attack that ravaged his village, he wandered the land, a relentless hunter.\n His nichirin, Ikazuchi, sang a mournful song as he danced with demons, each strike fueled by a silent vow of\n vengeance. Legends whispered of a storm swordsman, a harbinger of destruction for demons, and fear followed Hiro wherever he went.")
+  speak(" Hiro Aoiumi, a solitary figure cloaked in an indigo haori, bore the weight of a heavy past. Orphaned\n by a demon attack that ravaged his village, he wandered the land, a relentless hunter.\n His nichirin, Ikazuchi, sang a mournful song as he danced with demons, each strike fueled by a silent vow of\n vengeance. Legends whispered of a storm swordsman, a harbinger of destruction for demons, and fear followed Hiro wherever he went.")
   from Hiro_character import Mission
   Mission()
 
@@ -81,6 +83,7 @@ def Kasumi_Arashi():
   clear_screen()
   print("You Choose Kasumi Arashi\nThe Wind Breathing Jackal\n")
   print(" A vibrant young woman with eyes like a stormy sky, was a whirlwind of steel and laughter. Her twin katanas, Ame (Rain) and Yuki (Snow),\n were as unpredictable as the mountain storms she called home. Kasumi's breath technique wove illusions that dazzled and disoriented,\n leaving opponents bewildered as her blades found their mark. Renowned for her flamboyant fighting style and\n relentless optimism, Kasumi left a trail of vanquished demons and bewildered onlookers in her wake.")
+  speak(" Hiro Aoiumi, a solitary figure cloaked in an indigo haori, bore the weight of a heavy past. Orphaned\n by a demon attack that ravaged his village, he wandered the land, a relentless hunter.\n His nichirin, Ikazuchi, sang a mournful song as he danced with demons, each strike fueled by a silent vow of\n vengeance. Legends whispered of a storm swordsman, a harbinger of destruction for demons, and fear followed Hiro wherever he went.")
   from Kasumi_character import Mission
   Mission()
 
@@ -88,6 +91,7 @@ def Kaito_Kaminari():
   clear_screen()
   print("You Choose Kaito Kaminari\nThe Thunder Breathing Genius\n")
   print(" Kaito Kaminari, a prodigy with an unnervingly calm demeanor, possessed an intellect that rivaled the sharpest blade. \n Despite his youth, he\n had risen through the ranks of the Demon Slayers with meteoric speed. His\n wakizashi, Raijin (Thunder God) and Fuujin (Wind God),\n moved with a deadly precision, a testament to his rigorous training and strategic mind. Kaito's breath technique\n granted him heightened reflexes and perception, allowing him to anticipate his opponents' moves\n and dismantle them with surgical efficiency. Though his methods were unorthodox, his success was undeniable, \n making him a valuable asset to any mission.")
+  speak(" Hiro Aoiumi, a solitary figure cloaked in an indigo haori, bore the weight of a heavy past. Orphaned\n by a demon attack that ravaged his village, he wandered the land, a relentless hunter.\n His nichirin, Ikazuchi, sang a mournful song as he danced with demons, each strike fueled by a silent vow of\n vengeance. Legends whispered of a storm swordsman, a harbinger of destruction for demons, and fear followed Hiro wherever he went.")
   from Kaito_character import Mission
   Mission()
   
