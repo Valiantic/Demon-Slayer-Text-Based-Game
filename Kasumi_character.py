@@ -1,5 +1,18 @@
 import random
 import os 
+import speech_recognition as sr #voice recognition para makilala yung boses mo 
+import pyttsx3 #text to speech / nagcoconvert ng texto sa salita
+
+# SPEECH GENERATION
+def speak(text):
+    text = str(text)
+    engine = pyttsx3.init('sapi5')
+    voices = engine.getProperty('voices') 
+    engine.setProperty('voice', voices[0].id)
+    engine.setProperty('rate', 145)
+    engine.say(text)
+    engine.runAndWait()
+
  
 # Fighting Attributes
 class Character:
@@ -65,6 +78,8 @@ def Mount_Yokogawa():
   clear_screen()
   print("\nWelcome to Mount Yokogawa!\n")
   print("A demon outbreak ravaged a village on Mount Yokogawa, leaving its inhabitants forever \nmarked by the harrowing encounter. This event sparked a\nvow for vengeance in one determined survivor.")
+  speak("\nWelcome to Mount Yokogawa!\n")
+  speak("A demon outbreak ravaged a village on Mount Yokogawa, leaving its inhabitants forever \nmarked by the harrowing encounter. This event sparked a\nvow for vengeance in one determined survivor.")
   wonder = input("\nPress anything to wonder >>>")
   battle(player, enemy)
   
@@ -72,18 +87,24 @@ def Swordsmith_Village():
   clear_screen()
   print("\nWelcome to Swordsmith Village!\n")
   print("Driven by this oath, the survivor ventured to the hidden Swordsmith Village. Their unwavering\n determination impressed a master smith who recognized their potential and\ncrafted a unique weapon to aid them in their fight against demons.")
+  speak("\nWelcome to Swordsmith Village!\n")
+  speak("Driven by this oath, the survivor ventured to the hidden Swordsmith Village. Their unwavering\n determination impressed a master smith who recognized their potential and\ncrafted a unique weapon to aid them in their fight against demons.")
   wonder = input("\nPress anything to wonder >>>")
   battle(player, enemy)
 def Entertainment_District():
   clear_screen()
   print("\nWelcome to Entertainment District!\n")
   print("Rumors of a powerful demon lurking within the dazzling yet deceitful Entertainment District drew the warrior in.\nThis vibrant location with its hidden dangers became their next destination.")
+  speak("\nWelcome to Entertainment District!\n")
+  speak("Rumors of a powerful demon lurking within the dazzling yet deceitful Entertainment District drew the warrior in.\nThis vibrant location with its hidden dangers became their next destination.")
   wonder = input("\nPress anything to wonder >>>")
   battle(player, enemy)
 def Crimson_Light_District():
   clear_screen()
   print("\nWelcome to Crimson Light District!\n")
   print("Undeterred by whispers of danger, the warrior ventures even deeper into the clandestine Crimson Light District.\nThis even more secretive area is rumored to hold the\n key to their past or destiny, motivating them to confront the evil they seek.")
+  speak("\nWelcome to Crimson Light District!\n")
+  speak("Undeterred by whispers of danger, the warrior ventures even deeper into the clandestine Crimson Light District.\nThis even more secretive area is rumored to hold the\n key to their past or destiny, motivating them to confront the evil they seek.")
   wonder = input("\nPress anything to wonder >>>")
   battle(player, enemy)
   
